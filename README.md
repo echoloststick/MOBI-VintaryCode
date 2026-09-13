@@ -1,14 +1,15 @@
 # MOBI-VintaryCode
 Learn about the Vintary-Code and use our converter.
 
-Vintary Code is a text conversion system based on a fixed character collection. Each character is assigned a numerical value according to its position within the collection.
+`Vintary Code` is a text conversion system based on a fixed character collection. Each character is assigned a numerical value according to its position within the collection.
 
 The character collection contains uppercase and lowercase letters, numbers, spaces, punctuation, mathematical symbols, currency symbols, and other special characters:
 
+```js
 const colection =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" +
   "1234567890 .,!?:;'\"*_$#@&-+()/{}[]=°^¥€¢£%©®™✓\\÷×~`§∆√π•|";
-
+```
 When converting text to Vintary, each character is searched within this collection and its position is converted into a numerical value. The values are separated by periods (".") to create the final Vintary sequence.
 
 The conversion is based on the character's index:
