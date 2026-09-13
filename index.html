@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ <title>Vintary Code</title>
+ <style>
+  body {
+   background-color: #24272C;
+  }
+  .faixa {
+   width: 103%;
+   height: 75px;
+   background: #16181c;
+   color: white;
+   font-size: 42px;
+   display: flex;
+   align-items: center;
+   padding-right: 4%;
+   box-sizing: border-box;
+   justify-content: center;
+   position: absolute;
+   left: 50%;
+   top: 0%;
+   transform: translate(-50%, 0%);
+   font-family: "Poppins", sans-serif;
+  }
+  .link {
+   width: 65px;
+   height: 65px;
+   display: flex;
+   align-items: center;
+  }
+  .Github {
+   width: 65px;
+   height: 65px;
+   filter: invert(1);
+   align-self: center;
+  }
+  .phrase {
+   width: 525px;
+   height: 375px;
+   border-radius: 3px;
+   font-size: 30px;
+   background-color: #333333;
+   color: white;
+   border: 5px;
+   position: absolute;
+   top: 130px;
+   left: 50%;
+   transform: translate(-50%, 0%)
+  }
+  .vintary {
+   width: 525px;
+   height: 375px;
+   border-radius: 3px;
+   font-size: 30px;
+   background-color: #333333;
+   color: white;
+   border: 5px;
+   position: absolute;
+   top: 570px;
+   left: 50%;
+   transform: translate(-50%, 0%)
+  }
+ </style>
+</head>
+<body>
+ <div class="faixa">
+  <a href="https://www.github.com" class="link">
+   <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github/default.svg" alt="GitHub" width="40" class="Github">
+  </a>
+  Vintary Converter
+ </div>
+ <textarea placeholder="Text" class="phrase"></textarea>
+ <textarea placeholder="Vintary" class="vintary"></textarea>
+ <script type="module" src="html.js"></script>
+</body>
+</html>
