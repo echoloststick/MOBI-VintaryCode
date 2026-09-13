@@ -23,3 +23,6 @@ The "+1" shifts JavaScript's zero-based index so that the first character is rep
 The reverse conversion splits the Vintary sequence by periods, converts each value back into an index, and retrieves the corresponding character from the same collection.
 
 Vintary Code provides two main functions: `textToVintary()`, which encodes text into Vintary, and `vintaryToText()`, which decodes a Vintary sequence back into text. Both operations rely on the exact same character collection, making its order an essential part of the encoding system.
+
+# Check `Vintary-Code` converter:
+https://echoloststick.github.io/MOBI-VintaryCode/
