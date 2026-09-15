@@ -1,6 +1,6 @@
 const lower = "abcdefghijklmnopqrstuvwxyz";
 const upper = lower.toUpperCase();
-const colection = upper + lower + "1234567890 .,!?:;'\"*_$#@&-+()/{}[]=°^¥€¢£%©®™✓\\÷×~`§∆√π•|\n";
+const colection = upper + lower + "1234567890áãàâäåæªéêèëėęēüúūùûóõôòöœøōºíîìįïī .,!?:;'\"*_$#@&-+()/{}[]=°^¥€¢£%©®™✓\\÷×~`§∆√π•|\n";
 
 export function textToVintary(text) {
  var res = [];
