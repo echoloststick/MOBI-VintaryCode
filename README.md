@@ -8,7 +8,7 @@ The character collection contains uppercase and lowercase letters, numbers, spac
 ```js
 const colection =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" +
-  "1234567890 .,!?:;'\"*_$#@&-+()/{}[]=°^¥€¢£%©®™✓\\÷×~`§∆√π•|";
+  "1234567890áãàâäåæªéêèëėęēüúūùûóõôòöœøōºíîìįïī .,!?:;'\"*_$#@&-+()/{}[]=°^¥€¢£%©®™✓\\÷×~`§∆√π•|";
 ```
 When converting text to Vintary, each character is searched within this collection and its position is converted into a numerical value. The values are separated by periods (".") to create the final Vintary sequence.
 
